@@ -1,7 +1,6 @@
 import { cancel, intro,isCancel, text, outro, spinner } from "@clack/prompts";
 import * as duckdb from "duckdb-async";
 
-
 intro("Motherduck Windows Reproduction")
 
 const motherduckToken = await text({
